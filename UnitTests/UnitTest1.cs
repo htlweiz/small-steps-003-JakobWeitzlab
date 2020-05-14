@@ -56,8 +56,7 @@ namespace UnitTests
             expected += "Der Rechenking sagt 6 - 3 = 3" + Environment.NewLine;
             expected += "Der Rechenking sagt 6 * 3 = 18" + Environment.NewLine;
             expected += "Der Rechenking sagt 6 / 3 = 2" + Environment.NewLine;
-            Console.WriteLine("Es wird erwarted, dass der Output von Program folgender ist:{0}{1}",
-                Environment.NewLine, expected);
+            Console.WriteLine("Es wird erwarted, dass der Output von Program folgender ist:{0}{1}", Environment.NewLine, expected);
             StringWriter sw = new StringWriter();
             Console.SetOut(sw);
             SmallSteps003.Program.Main(null);
